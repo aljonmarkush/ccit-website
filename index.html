@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#05060d">
 <title>CCIT Pasiklaban 2026 — An Odyssey to the Land of the Gods</title>
-<meta name="description" content="CCIT Week Pasiklaban 2026 · November 18–19, 2026 · An Odyssey to the Land of the Gods.">
+<meta name="description" content="CCIT Week Pasiklaban 2026 · November 19–20, 2026 · An Odyssey to the Land of the Gods.">
 
 <!-- Tab Bar Logo (Favicon) -->
 <link rel="icon" type="image/png" href="assets/logo.png">
@@ -242,6 +242,8 @@ nav.open .burger i:nth-child(3){top:21px;transform:rotate(-45deg)}
 .member .nm{font-style:italic;color:#cfc3a3;font-size:.95rem;margin-top:3px}
 .advw{margin-top:50px}.advw+.leadw{margin-top:30px}
 .tagd{display:inline-block;margin-top:10px;padding:4px 12px;border-radius:99px;font-family:var(--f-head);font-weight:700;font-size:.58rem;letter-spacing:.18em;text-transform:uppercase;color:#1a1204;background:linear-gradient(135deg,var(--gold-hi),var(--gold) 50%,var(--gold-lo))}
+.dayhead .emc{margin-top:8px;font-family:var(--f-head);font-weight:700;letter-spacing:.18em;text-transform:uppercase;font-size:.72rem;color:var(--gold)}
+.dayhead .emc b{color:var(--marble);letter-spacing:.1em}
 .hint{text-align:center;font-style:italic;color:#bfb394;margin-top:30px;font-size:.92rem}
 
 
@@ -278,6 +280,20 @@ body.mlock{overflow:hidden}
 .spk .deg{font-style:italic;color:#cfc3a3}
 .spk .when{display:inline-block;margin-top:18px;padding:8px 18px;border-radius:999px;font-family:var(--f-head);font-weight:700;letter-spacing:.16em;font-size:.68rem;text-transform:uppercase;border:1px solid rgba(255,226,150,.4);background:rgba(232,184,74,.08);color:var(--gold-hi)}
 @media(max-width:760px){.spk{grid-template-columns:1fr;text-align:center}.spk .photo{max-width:260px;margin:0 auto}}
+
+/* gods & goddesses pageant */
+.ggrid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:44px}
+.gcol{text-align:center;padding:26px 16px 20px;border-radius:24px;border:1px solid rgba(var(--c),.5);background:linear-gradient(180deg,rgba(var(--c),.12),rgba(var(--c),.03));box-shadow:0 0 40px rgba(var(--c),.12)}
+.gcol>img{height:78px;width:auto;margin:0 auto 6px;object-fit:contain;filter:drop-shadow(0 0 16px rgba(var(--c),.55))}
+.gcol>h3{font-family:var(--f-head);font-weight:700;letter-spacing:.14em;font-size:1.05rem;color:var(--marble);margin-bottom:18px}
+.gpair{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+.gpair .pn{grid-column:1/-1;font-family:var(--f-head);font-weight:700;font-size:.58rem;letter-spacing:.3em;text-transform:uppercase;color:rgb(var(--c));filter:brightness(1.25)}
+.gc .ph svg{width:100%;height:100%;opacity:1}
+.gc{padding:10px 10px 16px;border-radius:18px;border-color:rgba(var(--c),.45)}
+.gc .photo{margin-bottom:10px}
+.gtag{display:inline-block;padding:3px 12px;border-radius:99px;font-family:var(--f-head);font-weight:700;font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;color:#10101c;background:rgb(var(--c))}
+.gc h4{font-family:var(--f-head);font-weight:700;font-size:.8rem;letter-spacing:.04em;color:var(--gold-hi);margin-top:8px;line-height:1.3}
+@media(max-width:900px){.ggrid{grid-template-columns:1fr;max-width:460px;margin-left:auto;margin-right:auto}}
 /* ───────── live team score ───────── */
 .sstat{display:flex;flex-direction:column;align-items:center;gap:8px;margin:28px 0 4px}
 .pillst{display:inline-flex;align-items:center;gap:10px;padding:9px 20px;border-radius:999px;font-family:var(--f-head);font-weight:700;letter-spacing:.2em;font-size:.68rem;text-transform:uppercase;border:1px solid rgba(255,226,150,.35);background:rgba(10,10,30,.45)}
@@ -364,6 +380,7 @@ footer .cr{color:#cfc3a3;font-size:.95rem;margin-top:8px}
     <li><a href="#banners" data-go>Banners</a></li>
     <li><a href="#program" data-go>Program</a></li>
     <li><a href="#contests" data-go>Contests</a></li>
+    <li><a href="#gods" data-go>Pageant</a></li>
     <li><a href="#scores" data-go>Scores<span class="sdot"></span></a></li>
     <li><a href="#team" data-go>Team</a></li>
     <li><a href="#partners" data-go>Partners</a></li>
@@ -376,8 +393,8 @@ footer .cr{color:#cfc3a3;font-size:.95rem;margin-top:8px}
   <div class="hero-in" id="heroIn">
     <img class="hero-logo" data-img="logo" alt="CCIT Pasiklaban 2026">
     <p class="hero-tag gold">An Odyssey to the Land of the Gods</p>
-    <p class="hero-date">November 18 – 19, 2026</p>
-    <div class="count" aria-label="Countdown to November 18, 2026">
+    <p class="hero-date">November 19 – 20, 2026</p>
+    <div class="count" aria-label="Countdown to November 19, 2026">
       <div class="glass"><b id="cd">00</b><span>Days</span></div>
       <div class="glass"><b id="ch">00</b><span>Hours</span></div>
       <div class="glass"><b id="cm">00</b><span>Minutes</span></div>
@@ -433,8 +450,8 @@ footer .cr{color:#cfc3a3;font-size:.95rem;margin-top:8px}
     <div class="key rv"></div>
     <p class="lede rv">Follow the ship down the timeline. Switch days, or show only the key moments.</p>
     <div class="ctrl glass" id="ctrl">
-      <button class="tab on" data-d="0">Day 1 · Nov 18</button>
-      <button class="tab" data-d="1">Day 2 · Nov 19</button>
+      <button class="tab on" data-d="0">Day 1 · Nov 19</button>
+      <button class="tab" data-d="1">Day 2 · Nov 20</button>
       <button class="tgl" id="tgl" aria-pressed="false"><span class="sw"></span>Key moments only</button>
     </div>
     <div class="dayhead" id="dayhead"></div>
@@ -470,9 +487,20 @@ footer .cr{color:#cfc3a3;font-size:.95rem;margin-top:8px}
         <h3 class="gold">&ldquo;The Capstone Odyssey: From Ideas to Innovation&rdquo;</h3>
         <p class="who">Nova Divine D. Subagan, MIT</p>
         <p class="deg">Resource Speaker</p>
-        <span class="when">Day 1 · November 18 · 9:30–10:30 AM</span>
+        <span class="when">Day 1 · November 19 · 9:30–10:30 AM</span>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- IV-A2 · GODS & GODDESSES -->
+<section id="gods" data-scene="2" data-title="The Pantheon" class="pad">
+  <div class="wrap">
+    <p class="eyebrow rv">The Pageant</p>
+    <h2 class="title gold rv">Gods &amp; Goddesses</h2>
+    <div class="key rv"></div>
+    <p class="lede rv">One God and one Goddess rise from each banner to represent their realm on the stage of Olympus.</p>
+    <div class="ggrid" id="ggrid"></div>
   </div>
 </section>
 
@@ -483,8 +511,8 @@ footer .cr{color:#cfc3a3;font-size:.95rem;margin-top:8px}
     <h2 class="title gold rv">Live Team Score</h2>
     <div class="key rv"></div>
     <p class="lede rv">Follow the three banners as the points are tallied, contest by contest. Opens on Day 1 and stays live through the awarding.</p>
-    <div class="sstat rv"><span class="pillst" id="scPill"><i></i><span id="scPillT">Opens Nov 18</span></span><span class="supd" id="scUpd"></span></div>
-    <div class="glass slock rv" id="scLock"><b>The scoreboard is sealed</b><span id="scLockT">The gods will reveal the standings on November 18, 2026.</span></div>
+    <div class="sstat rv"><span class="pillst" id="scPill"><i></i><span id="scPillT">Opens Nov 19</span></span><span class="supd" id="scUpd"></span></div>
+    <div class="glass slock rv" id="scLock"><b>The scoreboard is sealed</b><span id="scLockT">The gods will reveal the standings on November 19, 2026.</span></div>
     <div class="sgrid" id="scGrid"></div>
     <div class="sbtnw rv"><button class="mbtn" id="scBtn" aria-expanded="false">Score breakdown <span>›</span></button></div>
     <div class="glass sbrk" id="scBrk"><div class="tw2"><table id="scTbl"></table></div></div>
@@ -521,7 +549,7 @@ footer .cr{color:#cfc3a3;font-size:.95rem;margin-top:8px}
 <footer data-scene="3" id="footer">
   <img data-img="logo" alt="CCIT Pasiklaban 2026">
   <p class="gold" style="font-family:var(--f-head);font-weight:700;letter-spacing:.3em">CCIT PASIKLABAN 2026</p>
-  <p class="cr">An Odyssey to the Land of the Gods · November 18–19, 2026</p>
+  <p class="cr">An Odyssey to the Land of the Gods · November 19–20, 2026</p>
   <p class="cr">Organized by AWS Learning Club – Cardinals · Co-organized by Bytes Society · Media Partner: The Visuals</p>
 </footer>
 
@@ -906,7 +934,7 @@ const words=$$('.w',mt);
 
 // program
 const DAYS=[
- {t:'Day 1 — November 18, 2026',s:'Opening Ceremony and Preliminary Competitions',rows:[
+ {t:'Day 1 — November 19, 2026',s:'Opening Ceremony and Preliminary Competitions',e:'Johnrex Delas Alas',rows:[
  ['7:30–8:00 AM','Registration and Attendance'],
  ['8:00–8:10 AM','Opening Prayer and Philippine National Anthem'],
  ['8:10–8:20 AM','Welcome Remarks'],
@@ -915,30 +943,33 @@ const DAYS=[
  ['8:45–9:00 AM','Inspirational Message and Official Opening',{h:1}],
  ['9:00–9:15 AM','Opening Intermission Number'],
  ['9:15–9:30 AM','Introduction of Competing Groups and Competition Mechanics'],
- ['9:30–10:30 AM','Seminar Series – Guest Speaker Session (1 Hour)',{h:1}],
+ ['9:30–10:30 AM','Seminar Series: The Capstone Odyssey: From Ideas to Innovation',{h:1}],
  ['10:30–10:45 AM','Morning Break'],
  ['10:45 AM–12:00 PM','Quiz Bee, Canva Design Competition, and Program Booth Exhibition',{tag:'Simultaneous',h:1}],
  ['12:00–1:00 PM','Lunch Break'],
  ['1:00–2:30 PM','Idea Hackathon – Development Phase',{tag:'Parallel',h:1}],
- ['1:00–3:00 PM','E-Games Elimination Rounds – Mobile Legends: Bang Bang, CODM, and Valorant',{tag:'Parallel',h:1}],
- ['1:00–2:30 PM','Board Games and Laro ng Lahi, including Chinese Garter',{tag:'Parallel',h:1}],
+ ['1:00–3:00 PM','E-Games Elimination Rounds – Mobile Legends: Bang Bang, Call of Duty: Mobile, and VALORANT',{tag:'Parallel',h:1}],
+ ['1:00–2:30 PM','Board Games and Laro ng Lahi',{tag:'Parallel',h:1}],
  ['2:30–3:00 PM','Afternoon Break and Pageant Preparation'],
  ['3:00–3:15 PM','Opening of the Greek Gods and Goddesses Pageant',{h:1}],
  ['3:15–3:30 PM','Introduction and Presentation of Candidates'],
  ['3:30–4:00 PM','Greek Mythology-Inspired Attire and Character Presentation'],
  ['4:00–4:20 PM','Question-and-Answer Portion'],
- ['4:20–4:35 PM',"Judges' Deliberation and Entertainment Number"],
+ ['4:20–4:35 PM','Judges’ Deliberation and Entertainment Number'],
  ['4:35–4:55 PM','Coronation, Special Awards, and Recognition of Winners',{h:1}],
  ['4:55–5:00 PM','Day 1 Highlights and Announcements']]},
- {t:'Day 2 — November 19, 2026',s:'Final Competitions, Evaluation & Awarding Ceremony',rows:[
+ {t:'Day 2 — November 20, 2026',s:'Final Competitions, Evaluation, and Awarding Ceremony',rows:[
+ ['5:30–6:00 AM','Registration of Participants – Color Fun Run'],
+ ['6:00–7:00 AM','Color Fun Run – STCI to M-Hotel',{h:1}],
+ ['7:00–8:00 AM','Freshen Up and Preparation for Day 2 Activities'],
  ['8:00–8:15 AM','Registration and Attendance'],
  ['8:15–9:00 AM','Opening Recap and Day 1 Highlights'],
  ['9:00–10:30 AM','Idea Hackathon – Final Presentation and Demonstration',{h:1}],
  ['10:30–10:45 AM','Morning Break'],
- ['10:45–11:15 AM',"Judges' Deliberation for Idea Hackathon"],
+ ['10:45–11:15 AM','Judges’ Deliberation – Idea Hackathon'],
  ['11:15 AM–12:00 PM','Final Viewing and Evaluation of Program Booths and Canva Design Outputs'],
  ['12:00–1:00 PM','Lunch Break'],
- ['1:00–2:30 PM','E-Games Finals – Mobile Legends: Bang Bang, CODM, and Valorant',{tag:'Parallel',h:1}],
+ ['1:00–2:30 PM','E-Games Finals – Mobile Legends: Bang Bang, Call of Duty: Mobile, and VALORANT',{tag:'Parallel',h:1}],
  ['1:00–2:30 PM','Final Tabulation of Competition Scores',{tag:'Parallel'}],
  ['2:30–3:00 PM','Afternoon Break'],
  ['3:00–3:30 PM','Awarding of Academic and Intellectual Competitions',{h:1}],
@@ -946,13 +977,13 @@ const DAYS=[
  ['4:00–4:20 PM','Awarding of Sports and E-Games Competitions',{h:1}],
  ['4:20–4:40 PM','Recognition of Judges, Speakers, Sponsors, and Committees'],
  ['4:40–4:55 PM','Announcement of Overall Group Champion, First Runner-Up, and Second Runner-Up',{h:1}],
- ['4:55–5:00 PM','Closing Remarks and Official Closing of PASIKLABAN 2026']]}
+ ['4:55–5:00 PM','Closing Remarks and Official Closing of CCIT PASIKLABAN 2026']]}
 ];
 let day=0,keyOnly=false,rows=[];
 const tl=$('#tl'),dh=$('#dayhead');
 function renderDay(){
   const d=DAYS[day];
-  dh.innerHTML=`<h3 class="gold">${d.t}</h3><p>${d.s}</p>`;
+  dh.innerHTML=`<h3 class="gold">${d.t}</h3><p>${d.s}</p>${d.e?`<p class="emc">Emcee: <b>${d.e}</b></p>`:''}`;
   tl.innerHTML=d.rows.map((r,i)=>{const o=r[2]||{};
     return `<div class="row rv ${o.h?'hl':''} ${keyOnly&&!o.h?'gone':''}"><div class="t">${r[0]}</div><span class="dot"></span><div class="glass a">${o.h?'<b>'+r[1]+'</b>':r[1]}${o.tag?`<em>${o.tag}</em>`:''}</div></div>`}).join('');
   rows=$$('.row',tl);observe();
@@ -1016,6 +1047,64 @@ const card=(m,i)=>`<div class="glass member rv" style="--i:${i%4}"><div class="p
 $('#spkPh').innerHTML=cam;
 $('#advw').innerHTML=ADVISERS.map(card).join('');
 $('#leadw').innerHTML=card(TEAM[0],0);
+/* ── Gods & Goddesses ─────────────────────────────────────────────
+   3 pairs per team. Replace "Name Surname" with the candidate's name.
+   Real photos go in  assets/pageant/  named  <team>-<pair 1-3>-god.jpg / -goddess.jpg
+   e.g. spartans-1-god.jpg, spartans-1-goddess.jpg, olympians-3-god.jpg …
+   Until a photo exists, a stylized Greek deity portrait (proxy) is shown. ─── */
+const EMB={
+ bolt:'<path d="M13 2L5 14h6l-1 8 8-12h-6z"/>',
+ crown:'<path d="M3 18l2-10 5 5 2-8 2 8 5-5 2 10z"/>',
+ trident:'<path d="M12 22V8M6 4v6a6 6 0 0 0 12 0V4M12 2v8"/>',
+ helmet:'<path d="M4 17a8 8 0 0 1 16 0v2H4zM12 3v6M8 12h8"/>',
+ sword:'<path d="M12 2v14M8 16h8M12 16v6"/>',
+ hammer:'<path d="M4 6h13v5H4zM10 11v11"/>',
+ heart:'<path d="M12 21C4 14 3 9 7 6c2-1.5 4 0 5 2 1-2 3-3.5 5-2 4 3 3 8-5 15z"/>',
+ bident:'<path d="M12 22V6M7 3v6a5 5 0 0 0 10 0V3"/>',
+ pomegranate:'<circle cx="12" cy="14" r="7"/><path d="M9 7l3 2 3-2"/>',
+ shell:'<path d="M3 19C3 10 8 4 12 4s9 6 9 15zM12 4v15M7 8l2 11M17 8l-2 11"/>',
+ grapes:'<circle cx="9" cy="10" r="3"/><circle cx="15" cy="10" r="3"/><circle cx="12" cy="16" r="3"/><path d="M12 7V3l3-1"/>',
+ flame:'<path d="M12 3c2 4 6 6 6 11a6 6 0 0 1-12 0c0-3 2-4 3-7 1 2 2 2 3-4z"/>',
+ sun:'<circle cx="12" cy="12" r="4.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/>',
+ moon:'<path d="M16 3a9 9 0 1 0 5 12A8 8 0 0 1 16 3z"/>',
+ bow:'<path d="M6 3c8 3 8 15 0 18M6 3v18M6 12h14M16 9l4 3-4 3"/>',
+ wing:'<path d="M3 15c4-1 7-5 8-11 1 5 4 9 10 10-4 1-6 4-9 6-1-3-5-5-9-5z"/>',
+ wheat:'<path d="M12 22V6M12 9L8 5M12 9l4-4M12 14l-4-4M12 14l4-4M12 19l-4-4M12 19l4-4"/>'
+};
+const PAGEANT=[
+ {g:'spartans',name:'Spartans',c:'211,32,47',pairs:[
+  {god:'Name Surname',gd:'Ares',ge:'sword',goddess:'Name Surname',gdd:'Athena',gde:'helmet'},
+  {god:'Name Surname',gd:'Hephaestus',ge:'hammer',goddess:'Name Surname',gdd:'Aphrodite',gde:'heart'},
+  {god:'Name Surname',gd:'Hades',ge:'bident',goddess:'Name Surname',gdd:'Persephone',gde:'pomegranate'}]},
+ {g:'atlanteans',name:'Atlanteans',c:'47,168,224',pairs:[
+  {god:'Name Surname',gd:'Poseidon',ge:'trident',goddess:'Name Surname',gdd:'Amphitrite',gde:'shell'},
+  {god:'Name Surname',gd:'Dionysus',ge:'grapes',goddess:'Name Surname',gdd:'Hestia',gde:'flame'},
+  {god:'Name Surname',gd:'Helios',ge:'sun',goddess:'Name Surname',gdd:'Selene',gde:'moon'}]},
+ {g:'olympians',name:'Olympians',c:'240,200,100',pairs:[
+  {god:'Name Surname',gd:'Zeus',ge:'bolt',goddess:'Name Surname',gdd:'Hera',gde:'crown'},
+  {god:'Name Surname',gd:'Apollo',ge:'sun',goddess:'Name Surname',gdd:'Artemis',gde:'bow'},
+  {god:'Name Surname',gd:'Hermes',ge:'wing',goddess:'Name Surname',gdd:'Demeter',gde:'wheat'}]}
+];
+const proxy=(deity,emb,c,fem)=>{
+  const gl='stroke="#ffe29a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"';
+  const leaves=[0,1,2,3,4].map(i=>{const t=i/4,y=72+t*52,x=76-Math.sin(t*3.1)*8;return `<ellipse cx="${x}" cy="${y}" rx="7" ry="3.2" transform="rotate(${-60+i*22} ${x} ${y})" fill="#e8b84a"/><ellipse cx="${240-x}" cy="${y}" rx="7" ry="3.2" transform="rotate(${60-i*22} ${240-x} ${y})" fill="#e8b84a"/>`}).join('');
+  const hair=fem?'<path d="M72 120C66 190 76 222 92 232L96 150ZM168 120C174 190 164 222 148 232L144 150Z" fill="#14112a" stroke="rgba(255,226,154,.3)"/>':'';
+  return `<svg class="px" viewBox="0 0 240 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+   <rect width="240" height="300" fill="#14122c"/><rect width="240" height="300" fill="rgb(${c})" opacity=".26"/>
+   <circle cx="120" cy="120" r="118" fill="rgb(${c})" opacity=".22"/>
+   ${hair}
+   <path d="M18 300C22 232 68 206 120 206s98 26 102 94z" fill="#1d1a3a" stroke="rgba(255,226,154,.45)"/>
+   <rect x="104" y="168" width="32" height="46" fill="#26224a"/>
+   <ellipse cx="120" cy="128" rx="41" ry="51" fill="#2c2750" stroke="rgba(255,226,154,.5)"/>
+   ${leaves}
+   <circle cx="198" cy="46" r="27" fill="#0b0a1c" opacity=".78" stroke="#e8b84a" stroke-width="1.5"/>
+   <g transform="translate(184 32) scale(1.17)" ${gl}>${EMB[emb]}</g>
+   <rect y="262" width="240" height="38" fill="#0b0a1c" opacity=".8"/>
+   <text x="120" y="287" text-anchor="middle" font-size="17" letter-spacing="3" fill="#ffe29a" style="font-family:var(--f-head);font-weight:700;text-transform:uppercase">${deity}</text></svg>`;
+};
+const gcard=(p,n,k,label,nm,deity,emb)=>`<div class="glass gc"><div class="photo"><div class="ph">${proxy(deity,emb,p.c,k==='goddess')}</div><img src="assets/pageant/${p.g}-${n}-${k}.jpg" alt="${nm} – ${label} of the ${p.name}" onerror="this.style.display='none'"></div><span class="gtag">${label}</span><h4>${nm}</h4></div>`;
+$('#ggrid').innerHTML=PAGEANT.map((p,i)=>`<div class="gcol rv" style="--c:${p.c};--i:${i}"><img src="${IMGS[p.g]}" alt="${p.name} emblem"><h3>${p.name}</h3>${p.pairs.map((r,j)=>`<div class="gpair"><span class="pn">Pair ${j+1}</span>${gcard(p,j+1,'god','God',r.god,r.gd,r.ge)}${gcard(p,j+1,'goddess','Goddess',r.goddess,r.gdd,r.gde)}</div>`).join('')}</div>`).join('');
+
 $('#teamgrid').innerHTML=TEAM.slice(1).map(card).join('');
 
 /* committee members popup */
@@ -1038,10 +1127,10 @@ document.addEventListener('click',e=>{
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&mod.classList.contains('open'))closeMembers()});
 
 /* ═════════ LIVE TEAM SCORE ═════════
-   • Locked until Nov 18, 2026 7:30 AM (PH time); live through Nov 19; then shows FINAL.
+   • Locked until Nov 19, 2026 7:30 AM (PH time); live through Nov 20; then shows FINAL.
    • To update scores during the event, edit  assets/scores.json  (the page re-reads it every 15 s).
    • To test before the event, open the site with  ?scores  at the end of the link.   */
-const SC_OPEN=new Date('2026-11-18T07:30:00+08:00'), SC_CLOSE=new Date('2026-11-19T23:59:59+08:00');
+const SC_OPEN=new Date('2026-11-19T07:30:00+08:00'), SC_CLOSE=new Date('2026-11-20T23:59:59+08:00');
 const SC_URL='assets/scores.json', SC_PREVIEW=new URLSearchParams(location.search).has('scores');
 const SC_GROUPS=[
  {id:'spartans',name:'Spartans',c:'211,32,47'},
@@ -1068,7 +1157,7 @@ function scRender(){
   const st=scState();scEl.classList.toggle('locked',st==='locked');
   const pill=$('#scPill'),pt=$('#scPillT');
   pill.className='pillst'+(st==='live'?' live':st==='final'?' final':'');
-  pt.textContent=st==='live'?'Live now':st==='final'?'Final standings':'Opens Nov 18';
+  pt.textContent=st==='live'?'Live now':st==='final'?'Final standings':'Opens Nov 19';
   $('#scUpd').textContent=st!=='locked'&&SC.updated?'Last updated: '+SC.updated:'';
   const rows=SC_GROUPS.map(g=>({g,t:tot(g.id)})).sort((a,b)=>b.t-a.t);
   const max=Math.max(1,...rows.map(r=>r.t));
@@ -1090,7 +1179,7 @@ function scRender(){
   }
   if(st==='locked'){
     const s=Math.max(0,Math.floor((SC_OPEN-Date.now())/1000)),d=Math.floor(s/86400),h=Math.floor(s%86400/3600),m=Math.floor(s%3600/60);
-    $('#scLockT').textContent=`The gods reveal the standings on November 18, 2026 · opens in ${d}d ${h}h ${m}m.`;
+    $('#scLockT').textContent=`The gods reveal the standings on November 19, 2026 · opens in ${d}d ${h}h ${m}m.`;
   }
 }
 $('#scBtn').addEventListener('click',()=>{const o=$('#scBrk').classList.toggle('open');$('#scBtn').setAttribute('aria-expanded',o)});
@@ -1115,7 +1204,7 @@ function observe(){
 renderDay();
 
 /* countdown */
-const T=new Date('2026-11-18T07:30:00+08:00');
+const T=new Date('2026-11-19T07:30:00+08:00');
 const p2=n=>String(n).padStart(2,'0');
 function tick(){const s=Math.max(0,Math.floor((T-Date.now())/1000));
   $('#cd').textContent=p2(Math.floor(s/86400));$('#ch').textContent=p2(Math.floor(s%86400/3600));
